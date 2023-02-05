@@ -1,0 +1,8 @@
+#.gitignore
+
+#The .terraform directory
+.terraform/*
+
+#The tf state file and any other backup
+*.tfstate
+*.tfstate.*
